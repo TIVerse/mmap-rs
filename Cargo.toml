@@ -1,12 +1,12 @@
 [package]
-name = "mmap-rs"
+name = "tiverse-mmap"
 version = "1.0.0"
 edition = "2021"
 rust-version = "1.70"
 authors = ["Vedanth HQ <vedanthq@tiverse.org>"]
 license = "MIT OR Apache-2.0"
 description = "Modern, safe, and ergonomic memory-mapped file I/O library with zero unsafe in public API"
-documentation = "https://docs.rs/mmap-rs"
+documentation = "https://docs.rs/tiverse-mmap"
 repository = "https://github.com/TIVerse/mmap-rs"
 homepage = "https://github.com/TIVerse/mmap-rs"
 readme = "README.md"

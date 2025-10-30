@@ -1,9 +1,9 @@
-# 🧠 mmap-rs — Modern Memory-Mapped File Library for Rust
+# 🧠 tiverse-mmap — Modern Memory-Mapped File Library for Rust
 
 [![CI](https://github.com/TIVerse/mmap-rs/workflows/CI/badge.svg)](https://github.com/TIVerse/mmap-rs/actions)
-[![Crates.io](https://img.shields.io/crates/v/mmap-rs.svg)](https://crates.io/crates/mmap-rs)
-[![Documentation](https://docs.rs/mmap-rs/badge.svg)](https://docs.rs/mmap-rs)
-[![License](https://img.shields.io/crates/l/mmap-rs.svg)](LICENSE-MIT)
+[![Crates.io](https://img.shields.io/crates/v/tiverse-mmap.svg)](https://crates.io/crates/tiverse-mmap)
+[![Documentation](https://docs.rs/tiverse-mmap/badge.svg)](https://docs.rs/tiverse-mmap)
+[![License](https://img.shields.io/crates/l/tiverse-mmap.svg)](LICENSE-MIT)
 
 **Next-Generation Memory-Mapped I/O with Safety, Performance, and Modern Rust Idioms**
 
@@ -20,7 +20,7 @@ A safe, performant, and ergonomic memory-mapped file I/O library that becomes th
 - **🦀 Modern Rust** — Edition 2021+, MSRV 1.70, leveraging latest language features
 - **📚 Comprehensive docs** — Examples, safety notes, and platform-specific behavior documented
 
-### Why mmap-rs?
+### Why tiverse-mmap?
 
 **vs. `memmap2`:**
 - ✅ Active maintenance with modern Rust features
@@ -43,7 +43,7 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-mmap-rs = "0.1"
+tiverse-mmap = "1.0"
 ```
 
 ### Basic Usage
@@ -92,7 +92,7 @@ let mmap = MmapOptions::new()
 
 ## 📖 Documentation
 
-- **[API Documentation](https://docs.rs/mmap-rs)** — Complete API reference
+- **[API Documentation](https://docs.rs/tiverse-mmap)** — Complete API reference
 - **[Getting Started Guide](docs/getting-started.md)** — Tutorial for new users
 - **[Performance Guide](docs/performance.md)** — Optimization tips and benchmarks
 - **[Safety Guide](docs/safety.md)** — Understanding the safety model
@@ -197,7 +197,7 @@ cargo bench
 
 Performance targets:
 
-| Operation | mmap-rs | memmap2 | std::fs::read |
+| Operation | tiverse-mmap | memmap2 | std::fs::read |
 |-----------|---------|---------|---------------|
 | 1GB Sequential Read | 1.2s | 1.3s | 2.8s |
 | Random Access (1M ops) | 0.8s | 0.9s | N/A |
